@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.flowerlogo{
+    font-size:30px;
+    color: #333;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+.nav-link{
+
+    color: rgb(101, 104, 104) !important;
+}
+.nav-link:hover{
+    color:  rgb(250, 72, 102) !important;
+}
+/* home page */
+
+.Home{
+    
+    background-color: aqua;
+    height: 90vh;
+    width: 100%;  
+}
+
+.homebg{
+    background-image: url(home-bg.jpg);
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    
+}
+.home_content{
+    width:530px ;
+    height: 360px;
+    margin-left: 100px;
+    margin-bottom: 0;     
+}
+
+.homecontentHead{
+    font-size:60px;
+    font-weight:800;
+    margin-bottom: 0;
+}
+.homecontentSubhead{
+    font-size: 35px;
+    color: rgb(250, 72, 102);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.homesubcontent{
+    color:black
+}
+.shopbutton,.aboutbutton{
+    background-color: black;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+
+}
+.shopbutton:hover, .aboutbutton:hover{
+    background-color:  rgb(250, 72, 102);;
+}
+
+/* About us page */
+.AboutUs{
+    /* background-color: rgb(118, 109, 109); */
+    height: 100vh;
+    width: 100%;
+    /* padding-top: 10px;
+    padding-bottom:px; */
+}
+.Aboutusvideo{
+    position: relative;
+    border: 10px;
+    border-color: white;
+    border-style: solid;
+    height:400px; 
+    width:600px;
+    background-color: aqua;  
+}
+
+.aboutusvideocontainer{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+.AboutMainContent{
+    justify-content: center;
+    align-items: center;
+    
+}
+.videotext{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    color: rgba(218, 42, 54, 0.612);
+    font-size: 35px;
+    background: white;
+    mix-blend-mode:screen;
+    font-weight:900;
+    width: 585px;
+    justify-content: center;
+}
+.AboutTitle{
+     background-color: rgb(255, 235, 238);
+     font-size: 35px;
+     font-weight: 600;
+     padding: 10px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     width: 90vw;
+     
+     /* margin-left:70px; */
+
+
+}
+.AboutUsSubContent{
+    /* background-color: blue; */
+    height: 400px;
+    width: 700px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 20px;
+    
+    
+}
+
+
+
+/* buying-info */
+.BuyingIngo{
+    background-color:rgb(234, 232, 232);
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.columns{
+    border: 10px solid  rgb(255, 235, 238);
+    font-size: 12px;
+    height: 100px;
+    width:100px;
+    padding: 3px;
+    margin-top: 2px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.buyinfocontainer{
+    height:auto;
+    width:90vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.image{
+    margin-right: 10px;
+}
+.content{
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+/* product page */
+.Productheader{
+    background-color: rgb(255, 235, 238);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90vw;
+    
+}
+.ProductPage{
+    width: 100%;
+    background-color: rgb(244, 235, 237);
+}
+
+.products{
+    text-align: center;
+    height: 380px;
+    background-color: #d5d5d5;
+    
+}
+.productimg{
+    padding: 15px;
+    background-color: white;
+    position: relative;
+    
+}
+.productcontent{
+    
+    background-color: blueviolet;
+}
+.discount{
+    position: absolute; 
+    background-color: rgb(248, 217, 222); 
+    width: 50px; 
+    color: rgb(250, 72, 102); 
+    font-size: large;
+    margin: 5px;
+}
+.flowerimg:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    
+
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(250, 72, 102);;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.productimg:hover .overlay {
+    height: 18%;
+}
+.overlaytext{
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   
+}
+.overlaytext a:hover{
+    color: purple !important;
+
+}
+
+
+/* Customer Review */
+.CustomerTitle{
+    background-color: rgb(255, 235, 238);
+    font-size: 35px;
+    font-weight: 600;
+    width: 90vw;
+    
+}
+
+.Customercard{
+    
+}
+.review{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #d5d5d5;
+}
+.reviewcontent{
+    padding: 30px; 
+    color: gray;
+    background-color: white;
+    height: 70%;
+    width: 100%;
+}
+.reviewprofile{
+    background-color: white;
+    top:0;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+}
+
+.pics{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+
+/* contact us */
+.ContactUs{
+    /* height: 500px; */
+    width: 100%;
+}
+.ContactTitle{
+    background-color: rgb(255, 235, 238);
+    font-size: 35px;
+    font-weight: 600;
+    width: 90vw;
+    
+}
+.contactForm{
+    border: 2px solid #d5d5d5;
+    /* height:450px ;
+    width:500px ; */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.footerlinks{
+    text-decoration: none;
+    color: #a19f9f;
+}
+.footerlinks:hover{
+    color:  rgb(250, 72, 102) !important;
+    transition: .2s linear;
+}
+
+
+
+/* Medai Queries phone screen */
+@media screen and (min-width: 300px) and (max-width: 430px) {
+    .homecontentHead{
+     
+            font-size: 30px;
+            font-weight:600;
+            margin-bottom: 0;
+        }
+    .home_content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        width:170px ;
+        height: 290px;
+        margin-bottom:10px;     
+    }
+    .homecontentSubhead{
+        font-size: 18px;
+        color: rgb(250, 72, 102);
+        font-weight: 400;
+    }
+    .homesubcontent{
+        color:black;
+        font-size:10px;
+    }
+    .shopbutton{
+        background-color: black;
+        border-radius: 20px;
+        width: 80px;
+        height: 30px;
+        margin-top: 5px;
+        font-size: small;
+    
+    }
+    .Home{
+    
+        background-color: aqua;
+        height: 85vh;
+        width: 100%;  
+    }
+
+    .homebg{
+        background-image: url(home-bg.jpg);
+        height: 100%;
+        width: 100%;
+        background-size:cover;
+        background-position: center;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+    /* about us */
+    .AboutTitle{
+        background-color: rgb(255, 235, 238);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 90vw;
+        margin-left:15px;
+    }
+    .Aboutusvideo{
+        position: relative;
+        border: 10px;
+        border-color: white;
+        border-style: solid;
+        height:200px; 
+        width:300px;
+        background-color: aqua;
+    }
+    .aboutusvideocontainer{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .AboutUsSubContent{
+        /* background-color: blue; */
+        height: 250px;
+        width: 300px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 10px !important;
+        margin-right: 10px;
+    }
+    .AboutMainContent{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .videotext{
+        position: absolute;
+        display: flex;
+        top: 50%;
+        color: rgba(218, 42, 54, 0.612);
+        font-size: 20px;
+        background: white;
+        mix-blend-mode:screen;
+        font-weight:900;
+        width: 290px;
+        justify-content: center;
+    }
+    .AboutUs{
+        /* background-color: rgb(118, 109, 109); */
+        height: 130vh;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .Productheader{
+        background-color: rgb(255, 235, 238);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 90vw;
+        margin-left:15px;
+    }
+    /* .Customercard{
+        flex-wrap: wrap;
+    } */
+    .review{
+        
+        margin: 0;
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+        background-color: #d5d5d5;
+    }
+    .reviewcontent{
+        padding: 30px;
+        font-size: 10px; 
+        color: gray;
+        background-color: white;
+        height: 70%;
+        width: 100%;
+    }
+    .textreview{
+        font-size: small;
+    }
+    .pics{
+        margin-top: 13px;
+        height: 40px;
+        width: 40px;
+    }
+
+    /* .contactForm{
+        border: 2px solid #d5d5d5;
+        height:150px ;
+        width:200px ;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        
+    }
+    .contentimage{
+        height:100px;
+        width: 100px; 
+    } */
+
+
+}
+
+
+
+
+/* Medai Queries tablet screen */
+@media screen and (min-width: 760px) and (max-width: 1024px){
+    .videotext{
+        position: absolute;
+        display: flex;
+        top: 50%;
+        color: rgba(218, 42, 54, 0.612);
+        font-size: 20px;
+        background: white;
+        mix-blend-mode:screen;
+        font-weight:900;
+        width: 100%;
+        justify-content: center;
+    }
+    .columns{
+        border: 10px solid  rgb(255, 235, 238);
+        font-size: 12px;
+        height: 100px;
+        width:100px;
+        padding: 3px;
+        margin-top: 2px;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .buyinfocontainer{
+        height:auto;
+        width:60vw;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    .Customercard{
+        flex-wrap: wrap;
+    }
+
+
+}
